@@ -6,7 +6,7 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
+3.2.2
 * System dependencies
 
 * Configuration
@@ -47,3 +47,30 @@ gem "selenium-webdriver"
 ```ruby
 rails new default712skip5 --skip-action-cable --skip-action-text --skip-action-mailer --skip-action-mailbox --skip-jbuilder
 ```
+
+## Turboを理解するための準備
+
+### 1. デフォルトのRailsアプリケーションを作成する
+```shell
+scaffold User name:string email:string
+rails db:migrate
+```
+
+### 2. Userモデルにデータを追加する
+
+### 3. デフォルトの`app/views/users/index.html.erb`をTurboに対応させる
+
+### 4. デフォルトの`app/views/users/show.html.erb`をTurboに対応させる
+
+### 5. デフォルトの`app/views/users/new.html.erb`をTurboに対応させる
+
+### 6. デフォルトの`app/views/users/edit.html.erb`をTurboに対応させる
+
+### 7. デフォルトの`app/views/users/_form.html.erb`をTurboに対応させる
+
+### 8. デフォルトの`app/views/users/_user.html.erb`をTurboに対応させる
+
+
+
+
+
